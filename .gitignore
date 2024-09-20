@@ -1,0 +1,7 @@
+*.gif
+runs/
+*.pth
+*.npy
+*.nii
+*.dcm
+*.nrrd

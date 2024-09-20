@@ -1,0 +1,1631 @@
+MONAI version: 1.3.2
+Numpy version: 1.26.0
+Pytorch version: 2.4.0+cu124
+MONAI flags: HAS_EXT = False, USE_COMPILED = False, USE_META_DICT = False
+MONAI rev id: 59a7211070538586369afd4a01eca0a7fe2e742e
+MONAI __file__: /home/<username>/miniconda3/lib/python3.12/site-packages/monai/__init__.py
+
+Optional dependencies:
+Pytorch Ignite version: 0.4.11
+ITK version: 5.4.0
+Nibabel version: 5.2.1
+scikit-image version: 0.24.0
+scipy version: 1.14.0
+Pillow version: 10.2.0
+Tensorboard version: 2.17.0
+gdown version: 5.2.0
+TorchVision version: 0.19.0+cu124
+tqdm version: 4.66.5
+lmdb version: 1.5.1
+psutil version: 6.0.0
+pandas version: 2.2.2
+einops version: 0.8.0
+transformers version: NOT INSTALLED or UNKNOWN VERSION.
+mlflow version: 2.15.1
+pynrrd version: 1.0.0
+clearml version: 1.16.3
+
+For details about installing the optional dependencies, please visit:
+    https://docs.monai.io/en/latest/installation.html#installing-the-recommended-dependencies
+
+137 15
+check data torch.Size([1, 1, 192, 192, 48]) tensor([0])
+----------
+epoch 1/200
+epoch 1 average loss: 0.6707,learning rate 0.00034750000000000004
+----------
+epoch 2/200
+epoch 2 average loss: 0.6741,learning rate 0.000595
+----------
+epoch 3/200
+epoch 3 average loss: 0.6505,learning rate 0.0008425000000000001
+----------
+epoch 4/200
+epoch 4 average loss: 0.6535,learning rate 0.00109
+----------
+epoch 5/200
+epoch 5 average loss: 0.6629,learning rate 0.0013375000000000001
+saved new best metric model
+current epoch: 5 current accuracy: 0.7333 current AUC: 0.9773 best accuracy: 0.7333 at epoch 5
+----------
+epoch 6/200
+epoch 6 average loss: 0.6562,learning rate 0.001585
+----------
+epoch 7/200
+epoch 7 average loss: 0.6452,learning rate 0.0018325
+----------
+epoch 8/200
+epoch 8 average loss: 0.6352,learning rate 0.0020800000000000003
+----------
+epoch 9/200
+epoch 9 average loss: 0.6404,learning rate 0.0023275
+----------
+epoch 10/200
+epoch 10 average loss: 0.6393,learning rate 0.002575
+current epoch: 10 current accuracy: 0.2667 current AUC: 0.9773 best accuracy: 0.7333 at epoch 5
+----------
+epoch 11/200
+epoch 11 average loss: 0.6341,learning rate 0.0028225000000000004
+----------
+epoch 12/200
+epoch 12 average loss: 0.6652,learning rate 0.0030700000000000002
+----------
+epoch 13/200
+epoch 13 average loss: 0.6531,learning rate 0.0033174999999999997
+----------
+epoch 14/200
+epoch 14 average loss: 0.6540,learning rate 0.003565
+----------
+epoch 15/200
+epoch 15 average loss: 0.6422,learning rate 0.0038125000000000004
+current epoch: 15 current accuracy: 0.2667 current AUC: 0.9773 best accuracy: 0.7333 at epoch 5
+----------
+epoch 16/200
+epoch 16 average loss: 0.6789,learning rate 0.00406
+----------
+epoch 17/200
+epoch 17 average loss: 0.6567,learning rate 0.0043075000000000006
+----------
+epoch 18/200
+epoch 18 average loss: 0.6440,learning rate 0.004555
+----------
+epoch 19/200
+epoch 19 average loss: 0.6641,learning rate 0.0048025
+----------
+epoch 20/200
+epoch 20 average loss: 0.6372,learning rate 0.005050000000000001
+current epoch: 20 current accuracy: 0.2667 current AUC: 0.9773 best accuracy: 0.7333 at epoch 5
+----------
+epoch 21/200
+epoch 21 average loss: 0.6510,learning rate 0.0052975
+----------
+epoch 22/200
+epoch 22 average loss: 0.6342,learning rate 0.0055450000000000004
+----------
+epoch 23/200
+epoch 23 average loss: 0.6584,learning rate 0.0057925
+----------
+epoch 24/200
+epoch 24 average loss: 0.6334,learning rate 0.00604
+----------
+epoch 25/200
+epoch 25 average loss: 0.6471,learning rate 0.0062875000000000006
+saved new best metric model
+current epoch: 25 current accuracy: 0.8667 current AUC: 0.8182 best accuracy: 0.8667 at epoch 25
+----------
+epoch 26/200
+epoch 26 average loss: 0.6450,learning rate 0.006535
+----------
+epoch 27/200
+epoch 27 average loss: 0.6548,learning rate 0.0067825
+----------
+epoch 28/200
+epoch 28 average loss: 0.6263,learning rate 0.00703
+----------
+epoch 29/200
+epoch 29 average loss: 0.6178,learning rate 0.007277500000000001
+----------
+epoch 30/200
+epoch 30 average loss: 0.6316,learning rate 0.0075250000000000004
+current epoch: 30 current accuracy: 0.2667 current AUC: 0.9545 best accuracy: 0.8667 at epoch 25
+----------
+epoch 31/200
+epoch 31 average loss: 0.6058,learning rate 0.0077725
+----------
+epoch 32/200
+epoch 32 average loss: 0.5974,learning rate 0.008020000000000001
+----------
+epoch 33/200
+epoch 33 average loss: 0.6391,learning rate 0.0082675
+----------
+epoch 34/200
+epoch 34 average loss: 0.6227,learning rate 0.008515000000000002
+----------
+epoch 35/200
+epoch 35 average loss: 0.6271,learning rate 0.008762500000000001
+current epoch: 35 current accuracy: 0.8667 current AUC: 0.8182 best accuracy: 0.8667 at epoch 25
+----------
+epoch 36/200
+epoch 36 average loss: 0.6176,learning rate 0.00901
+----------
+epoch 37/200
+epoch 37 average loss: 0.6381,learning rate 0.0092575
+----------
+epoch 38/200
+epoch 38 average loss: 0.6182,learning rate 0.009505
+----------
+epoch 39/200
+epoch 39 average loss: 0.6056,learning rate 0.0097525
+----------
+epoch 40/200
+epoch 40 average loss: 0.6185,learning rate 0.01
+current epoch: 40 current accuracy: 0.2667 current AUC: 0.9773 best accuracy: 0.8667 at epoch 25
+----------
+epoch 41/200
+epoch 41 average loss: 0.6071,learning rate 0.01
+----------
+epoch 42/200
+epoch 42 average loss: 0.6110,learning rate 0.009999036202410324
+----------
+epoch 43/200
+epoch 43 average loss: 0.5851,learning rate 0.009996145181203614
+----------
+epoch 44/200
+epoch 44 average loss: 0.5793,learning rate 0.009991328050923579
+----------
+epoch 45/200
+epoch 45 average loss: 0.6060,learning rate 0.009984586668665639
+saved new best metric model
+current epoch: 45 current accuracy: 0.9333 current AUC: 0.9318 best accuracy: 0.9333 at epoch 45
+----------
+epoch 46/200
+epoch 46 average loss: 0.5759,learning rate 0.009975923633360983
+----------
+epoch 47/200
+epoch 47 average loss: 0.5587,learning rate 0.00996534228477463
+----------
+epoch 48/200
+epoch 48 average loss: 0.5393,learning rate 0.009952846702217882
+----------
+epoch 49/200
+epoch 49 average loss: 0.5616,learning rate 0.009938441702975686
+----------
+epoch 50/200
+epoch 50 average loss: 0.5403,learning rate 0.009922132840449455
+current epoch: 50 current accuracy: 0.2667 current AUC: 0.7727 best accuracy: 0.9333 at epoch 45
+----------
+epoch 51/200
+epoch 51 average loss: 0.5030,learning rate 0.00990392640201615
+----------
+epoch 52/200
+epoch 52 average loss: 0.5292,learning rate 0.00988382940660436
+----------
+epoch 53/200
+epoch 53 average loss: 0.4999,learning rate 0.00986184960198838
+----------
+epoch 54/200
+epoch 54 average loss: 0.5672,learning rate 0.009837995461801296
+----------
+epoch 55/200
+epoch 55 average loss: 0.5763,learning rate 0.009812276182268232
+current epoch: 55 current accuracy: 0.4667 current AUC: 0.6364 best accuracy: 0.9333 at epoch 45
+----------
+epoch 56/200
+epoch 56 average loss: 0.5507,learning rate 0.00978470167866104
+----------
+epoch 57/200
+epoch 57 average loss: 0.4552,learning rate 0.009755282581475764
+----------
+epoch 58/200
+epoch 58 average loss: 0.5092,learning rate 0.009724030232334388
+----------
+epoch 59/200
+epoch 59 average loss: 0.5908,learning rate 0.009690956679612417
+----------
+epoch 60/200
+epoch 60 average loss: 0.4919,learning rate 0.009656074673794014
+current epoch: 60 current accuracy: 0.3333 current AUC: 0.8409 best accuracy: 0.9333 at epoch 45
+----------
+epoch 61/200
+epoch 61 average loss: 0.5024,learning rate 0.00961939766255643
+----------
+epoch 62/200
+epoch 62 average loss: 0.4816,learning rate 0.009580939785585676
+----------
+epoch 63/200
+epoch 63 average loss: 0.4501,learning rate 0.009540715869125404
+----------
+epoch 64/200
+epoch 64 average loss: 0.5015,learning rate 0.009498741420261103
+----------
+epoch 65/200
+epoch 65 average loss: 0.4585,learning rate 0.009455032620941835
+current epoch: 65 current accuracy: 0.4667 current AUC: 0.7727 best accuracy: 0.9333 at epoch 45
+----------
+epoch 66/200
+epoch 66 average loss: 0.4428,learning rate 0.00940960632174177
+----------
+epoch 67/200
+epoch 67 average loss: 0.4614,learning rate 0.00936248003536398
+----------
+epoch 68/200
+epoch 68 average loss: 0.4872,learning rate 0.009313671929888953
+----------
+epoch 69/200
+epoch 69 average loss: 0.4366,learning rate 0.009263200821770455
+----------
+epoch 70/200
+epoch 70 average loss: 0.4902,learning rate 0.009211086168581427
+current epoch: 70 current accuracy: 0.2667 current AUC: 0.4318 best accuracy: 0.9333 at epoch 45
+----------
+epoch 71/200
+epoch 71 average loss: 0.4454,learning rate 0.009157348061512721
+----------
+epoch 72/200
+epoch 72 average loss: 0.5259,learning rate 0.009102007217627562
+----------
+epoch 73/200
+epoch 73 average loss: 0.4235,learning rate 0.009045084971874732
+----------
+epoch 74/200
+epoch 74 average loss: 0.4391,learning rate 0.00898660326886353
+----------
+epoch 75/200
+epoch 75 average loss: 0.4450,learning rate 0.008926584654403718
+current epoch: 75 current accuracy: 0.3333 current AUC: 0.7500 best accuracy: 0.9333 at epoch 45
+----------
+epoch 76/200
+epoch 76 average loss: 0.5194,learning rate 0.008865052266813679
+----------
+epoch 77/200
+epoch 77 average loss: 0.4102,learning rate 0.00880202982800015
+----------
+epoch 78/200
+epoch 78 average loss: 0.4324,learning rate 0.008737541634312979
+----------
+epoch 79/200
+epoch 79 average loss: 0.4343,learning rate 0.008671612547178421
+----------
+epoch 80/200
+epoch 80 average loss: 0.4711,learning rate 0.008604267983514586
+current epoch: 80 current accuracy: 0.5333 current AUC: 0.6591 best accuracy: 0.9333 at epoch 45
+----------
+epoch 81/200
+epoch 81 average loss: 0.4309,learning rate 0.00853553390593273
+----------
+epoch 82/200
+epoch 82 average loss: 0.4705,learning rate 0.008465436812728173
+----------
+epoch 83/200
+epoch 83 average loss: 0.4382,learning rate 0.008394003727664702
+----------
+epoch 84/200
+epoch 84 average loss: 0.4075,learning rate 0.008321262189556401
+----------
+epoch 85/200
+epoch 85 average loss: 0.4213,learning rate 0.008247240241650912
+current epoch: 85 current accuracy: 0.6667 current AUC: 0.5227 best accuracy: 0.9333 at epoch 45
+----------
+epoch 86/200
+epoch 86 average loss: 0.4256,learning rate 0.008171966420818222
+----------
+epoch 87/200
+epoch 87 average loss: 0.3963,learning rate 0.008095469746549164
+----------
+epoch 88/200
+epoch 88 average loss: 0.4432,learning rate 0.00801777970976785
+----------
+epoch 89/200
+epoch 89 average loss: 0.4181,learning rate 0.00793892626146236
+----------
+epoch 90/200
+epoch 90 average loss: 0.4279,learning rate 0.007858939801138056
+current epoch: 90 current accuracy: 0.4667 current AUC: 0.2273 best accuracy: 0.9333 at epoch 45
+----------
+epoch 91/200
+epoch 91 average loss: 0.4103,learning rate 0.007777851165098005
+----------
+epoch 92/200
+epoch 92 average loss: 0.4068,learning rate 0.0076956916145549965
+----------
+epoch 93/200
+epoch 93 average loss: 0.4330,learning rate 0.0076124928235797385
+----------
+epoch 94/200
+epoch 94 average loss: 0.4178,learning rate 0.007528286866889918
+----------
+epoch 95/200
+epoch 95 average loss: 0.4135,learning rate 0.00744310620748477
+current epoch: 95 current accuracy: 0.7333 current AUC: 0.2500 best accuracy: 0.9333 at epoch 45
+----------
+epoch 96/200
+epoch 96 average loss: 0.4231,learning rate 0.007356983684129983
+----------
+epoch 97/200
+epoch 97 average loss: 0.4051,learning rate 0.0072699524986977295
+----------
+epoch 98/200
+epoch 98 average loss: 0.4092,learning rate 0.007182046203366706
+----------
+epoch 99/200
+epoch 99 average loss: 0.3670,learning rate 0.007093298687687136
+----------
+epoch 100/200
+epoch 100 average loss: 0.4449,learning rate 0.0070037441655157
+current epoch: 100 current accuracy: 0.6667 current AUC: 0.7727 best accuracy: 0.9333 at epoch 45
+----------
+epoch 101/200
+epoch 101 average loss: 0.4087,learning rate 0.006913417161825444
+----------
+epoch 102/200
+epoch 102 average loss: 0.3855,learning rate 0.006822352499395743
+----------
+epoch 103/200
+epoch 103 average loss: 0.3908,learning rate 0.00673058528538746
+----------
+epoch 104/200
+epoch 104 average loss: 0.3895,learning rate 0.006638150897808462
+----------
+epoch 105/200
+epoch 105 average loss: 0.3924,learning rate 0.006545084971874732
+current epoch: 105 current accuracy: 0.6667 current AUC: 0.7500 best accuracy: 0.9333 at epoch 45
+----------
+epoch 106/200
+epoch 106 average loss: 0.4120,learning rate 0.006451423386272308
+----------
+epoch 107/200
+epoch 107 average loss: 0.4265,learning rate 0.006357202249325367
+----------
+epoch 108/200
+epoch 108 average loss: 0.4029,learning rate 0.006262457885075787
+----------
+epoch 109/200
+epoch 109 average loss: 0.4160,learning rate 0.006167226819279524
+----------
+epoch 110/200
+epoch 110 average loss: 0.3733,learning rate 0.00607154576532525
+current epoch: 110 current accuracy: 0.4000 current AUC: 0.7500 best accuracy: 0.9333 at epoch 45
+----------
+epoch 111/200
+epoch 111 average loss: 0.3961,learning rate 0.005975451610080638
+----------
+epoch 112/200
+epoch 112 average loss: 0.3976,learning rate 0.005878981399671767
+----------
+epoch 113/200
+epoch 113 average loss: 0.3720,learning rate 0.00578217232520115
+----------
+epoch 114/200
+epoch 114 average loss: 0.3976,learning rate 0.005685061708409836
+----------
+epoch 115/200
+epoch 115 average loss: 0.3950,learning rate 0.005587686987289183
+current epoch: 115 current accuracy: 0.4667 current AUC: 0.5909 best accuracy: 0.9333 at epoch 45
+----------
+epoch 116/200
+epoch 116 average loss: 0.3715,learning rate 0.005490085701647799
+----------
+epoch 117/200
+epoch 117 average loss: 0.3901,learning rate 0.00539229547863922
+----------
+epoch 118/200
+epoch 118 average loss: 0.4170,learning rate 0.0052943540182559395
+----------
+epoch 119/200
+epoch 119 average loss: 0.3990,learning rate 0.005196299078795338
+----------
+epoch 120/200
+epoch 120 average loss: 0.3654,learning rate 0.005098168462303136
+current epoch: 120 current accuracy: 0.4667 current AUC: 0.6364 best accuracy: 0.9333 at epoch 45
+----------
+epoch 121/200
+epoch 121 average loss: 0.4081,learning rate 0.004999999999999995
+----------
+epoch 122/200
+epoch 122 average loss: 0.3892,learning rate 0.004901831537696854
+----------
+epoch 123/200
+epoch 123 average loss: 0.4036,learning rate 0.004803700921204653
+----------
+epoch 124/200
+epoch 124 average loss: 0.4236,learning rate 0.0047056459817440485
+----------
+epoch 125/200
+epoch 125 average loss: 0.3753,learning rate 0.00460770452136077
+current epoch: 125 current accuracy: 0.3333 current AUC: 0.5909 best accuracy: 0.9333 at epoch 45
+----------
+epoch 126/200
+epoch 126 average loss: 0.3773,learning rate 0.004509914298352191
+----------
+epoch 127/200
+epoch 127 average loss: 0.3791,learning rate 0.004412313012710807
+----------
+epoch 128/200
+epoch 128 average loss: 0.4146,learning rate 0.0043149382915901565
+----------
+epoch 129/200
+epoch 129 average loss: 0.3832,learning rate 0.004217827674798842
+----------
+epoch 130/200
+epoch 130 average loss: 0.3848,learning rate 0.004121018600328223
+current epoch: 130 current accuracy: 0.6667 current AUC: 0.6591 best accuracy: 0.9333 at epoch 45
+----------
+epoch 131/200
+epoch 131 average loss: 0.3710,learning rate 0.004024548389919354
+----------
+epoch 132/200
+epoch 132 average loss: 0.3587,learning rate 0.003928454234674742
+----------
+epoch 133/200
+epoch 133 average loss: 0.3991,learning rate 0.0038327731807204684
+----------
+epoch 134/200
+epoch 134 average loss: 0.3895,learning rate 0.003737542114924206
+----------
+epoch 135/200
+epoch 135 average loss: 0.3847,learning rate 0.003642797750674623
+current epoch: 135 current accuracy: 0.4667 current AUC: 0.3864 best accuracy: 0.9333 at epoch 45
+----------
+epoch 136/200
+epoch 136 average loss: 0.3990,learning rate 0.003548576613727683
+----------
+epoch 137/200
+epoch 137 average loss: 0.3742,learning rate 0.0034549150281252584
+----------
+epoch 138/200
+epoch 138 average loss: 0.3856,learning rate 0.0033618491021915283
+----------
+epoch 139/200
+epoch 139 average loss: 0.3868,learning rate 0.0032694147146125315
+----------
+epoch 140/200
+epoch 140 average loss: 0.3580,learning rate 0.003177647500604247
+current epoch: 140 current accuracy: 0.4000 current AUC: 0.6818 best accuracy: 0.9333 at epoch 45
+----------
+epoch 141/200
+epoch 141 average loss: 0.3685,learning rate 0.0030865828381745467
+----------
+epoch 142/200
+epoch 142 average loss: 0.4003,learning rate 0.0029962558344842904
+----------
+epoch 143/200
+epoch 143 average loss: 0.3892,learning rate 0.002906701312312857
+----------
+epoch 144/200
+epoch 144 average loss: 0.4014,learning rate 0.002817953796633286
+----------
+epoch 145/200
+epoch 145 average loss: 0.3775,learning rate 0.002730047501302262
+current epoch: 145 current accuracy: 0.3333 current AUC: 0.8864 best accuracy: 0.9333 at epoch 45
+----------
+epoch 146/200
+epoch 146 average loss: 0.3616,learning rate 0.0026430163158700074
+----------
+epoch 147/200
+epoch 147 average loss: 0.3745,learning rate 0.0025568937925152207
+----------
+epoch 148/200
+epoch 148 average loss: 0.3766,learning rate 0.002471713133110074
+----------
+epoch 149/200
+epoch 149 average loss: 0.3745,learning rate 0.002387507176420252
+----------
+epoch 150/200
+epoch 150 average loss: 0.3498,learning rate 0.0023043083854449972
+current epoch: 150 current accuracy: 0.3333 current AUC: 0.3636 best accuracy: 0.9333 at epoch 45
+----------
+epoch 151/200
+epoch 151 average loss: 0.4012,learning rate 0.002222148834901985
+----------
+epoch 152/200
+epoch 152 average loss: 0.3889,learning rate 0.002141060198861936
+----------
+epoch 153/200
+epoch 153 average loss: 0.3847,learning rate 0.0020610737385376317
+----------
+epoch 154/200
+epoch 154 average loss: 0.3705,learning rate 0.00198222029023214
+----------
+epoch 155/200
+epoch 155 average loss: 0.3600,learning rate 0.0019045302534508282
+current epoch: 155 current accuracy: 0.2667 current AUC: 0.1818 best accuracy: 0.9333 at epoch 45
+----------
+epoch 156/200
+epoch 156 average loss: 0.3636,learning rate 0.0018280335791817685
+----------
+epoch 157/200
+epoch 157 average loss: 0.3593,learning rate 0.0017527597583490795
+----------
+epoch 158/200
+epoch 158 average loss: 0.3751,learning rate 0.0016787378104435886
+----------
+epoch 159/200
+epoch 159 average loss: 0.3823,learning rate 0.0016059962723352895
+----------
+epoch 160/200
+epoch 160 average loss: 0.3823,learning rate 0.0015345631872718186
+current epoch: 160 current accuracy: 0.6667 current AUC: 0.8182 best accuracy: 0.9333 at epoch 45
+----------
+epoch 161/200
+epoch 161 average loss: 0.4137,learning rate 0.00146446609406726
+----------
+epoch 162/200
+epoch 162 average loss: 0.3488,learning rate 0.0013957320164854035
+----------
+epoch 163/200
+epoch 163 average loss: 0.3716,learning rate 0.0013283874528215694
+----------
+epoch 164/200
+epoch 164 average loss: 0.3969,learning rate 0.001262458365687015
+----------
+epoch 165/200
+epoch 165 average loss: 0.3651,learning rate 0.0011979701719998434
+current epoch: 165 current accuracy: 0.4667 current AUC: 0.5909 best accuracy: 0.9333 at epoch 45
+----------
+epoch 166/200
+epoch 166 average loss: 0.3824,learning rate 0.001134947733186315
+----------
+epoch 167/200
+epoch 167 average loss: 0.3628,learning rate 0.001073415345596273
+----------
+epoch 168/200
+epoch 168 average loss: 0.3646,learning rate 0.0010133967311364634
+----------
+epoch 169/200
+epoch 169 average loss: 0.3815,learning rate 0.0009549150281252619
+----------
+epoch 170/200
+epoch 170 average loss: 0.3868,learning rate 0.0008979927823724307
+current epoch: 170 current accuracy: 0.4667 current AUC: 0.7955 best accuracy: 0.9333 at epoch 45
+----------
+epoch 171/200
+epoch 171 average loss: 0.3816,learning rate 0.0008426519384872736
+----------
+epoch 172/200
+epoch 172 average loss: 0.3785,learning rate 0.0007889138314185655
+----------
+epoch 173/200
+epoch 173 average loss: 0.3633,learning rate 0.0007367991782295379
+----------
+epoch 174/200
+epoch 174 average loss: 0.3921,learning rate 0.0006863280701110396
+----------
+epoch 175/200
+epoch 175 average loss: 0.3603,learning rate 0.0006375199646360141
+current epoch: 175 current accuracy: 0.2667 current AUC: 0.1818 best accuracy: 0.9333 at epoch 45
+----------
+epoch 176/200
+epoch 176 average loss: 0.3533,learning rate 0.0005903936782582243
+----------
+epoch 177/200
+epoch 177 average loss: 0.3704,learning rate 0.0005449673790581601
+----------
+epoch 178/200
+epoch 178 average loss: 0.3768,learning rate 0.0005012585797388916
+----------
+epoch 179/200
+epoch 179 average loss: 0.3704,learning rate 0.0004592841308745925
+----------
+epoch 180/200
+epoch 180 average loss: 0.3872,learning rate 0.0004190602144143201
+current epoch: 180 current accuracy: 0.4667 current AUC: 0.6136 best accuracy: 0.9333 at epoch 45
+----------
+epoch 181/200
+epoch 181 average loss: 0.3848,learning rate 0.0003806023374435657
+----------
+epoch 182/200
+epoch 182 average loss: 0.3762,learning rate 0.0003439253262059827
+----------
+epoch 183/200
+epoch 183 average loss: 0.3891,learning rate 0.0003090433203875787
+----------
+epoch 184/200
+epoch 184 average loss: 0.3723,learning rate 0.0002759697676656099
+----------
+epoch 185/200
+epoch 185 average loss: 0.3606,learning rate 0.00024471741852423196
+current epoch: 185 current accuracy: 0.4667 current AUC: 0.6818 best accuracy: 0.9333 at epoch 45
+----------
+epoch 186/200
+epoch 186 average loss: 0.3729,learning rate 0.00021529832133895552
+----------
+epoch 187/200
+epoch 187 average loss: 0.3544,learning rate 0.00018772381773176383
+----------
+epoch 188/200
+epoch 188 average loss: 0.3800,learning rate 0.00016200453819870036
+----------
+epoch 189/200
+epoch 189 average loss: 0.3661,learning rate 0.00013815039801161696
+----------
+epoch 190/200
+epoch 190 average loss: 0.3745,learning rate 0.00011617059339563786
+current epoch: 190 current accuracy: 0.6000 current AUC: 0.9091 best accuracy: 0.9333 at epoch 45
+----------
+epoch 191/200
+epoch 191 average loss: 0.3764,learning rate 9.607359798384769e-05
+----------
+epoch 192/200
+epoch 192 average loss: 0.3683,learning rate 7.786715955054189e-05
+----------
+epoch 193/200
+epoch 193 average loss: 0.3807,learning rate 6.15582970243116e-05
+----------
+epoch 194/200
+epoch 194 average loss: 0.3723,learning rate 4.7153297782113665e-05
+----------
+epoch 195/200
+epoch 195 average loss: 0.3723,learning rate 3.465771522536848e-05
+current epoch: 195 current accuracy: 0.4667 current AUC: 0.7045 best accuracy: 0.9333 at epoch 45
+----------
+epoch 196/200
+epoch 196 average loss: 0.3716,learning rate 2.407636663901587e-05
+----------
+epoch 197/200
+epoch 197 average loss: 0.3882,learning rate 1.5413331334360152e-05
+----------
+epoch 198/200
+epoch 198 average loss: 0.3687,learning rate 8.671949076420866e-06
+----------
+epoch 199/200
+epoch 199 average loss: 0.3824,learning rate 3.854818796385488e-06
+----------
+epoch 200/200
+epoch 200 average loss: 0.3870,learning rate 9.637975896759059e-07
+current epoch: 200 current accuracy: 0.3333 current AUC: 0.4318 best accuracy: 0.9333 at epoch 45
+Folder 0 train completed,last metruc : 0.3333333333333333, best_metric: 0.9333 at epoch: 45
+138 14
+check data torch.Size([1, 1, 192, 192, 48]) tensor([0])
+----------
+epoch 1/200
+epoch 1 average loss: 0.6615,learning rate 0.00034750000000000004
+----------
+epoch 2/200
+epoch 2 average loss: 0.6644,learning rate 0.000595
+----------
+epoch 3/200
+epoch 3 average loss: 0.6561,learning rate 0.0008425000000000001
+----------
+epoch 4/200
+epoch 4 average loss: 0.6508,learning rate 0.00109
+----------
+epoch 5/200
+epoch 5 average loss: 0.6613,learning rate 0.0013375000000000001
+saved new best metric model
+current epoch: 5 current accuracy: 0.5000 current AUC: 0.8542 best accuracy: 0.5000 at epoch 5
+----------
+epoch 6/200
+epoch 6 average loss: 0.6491,learning rate 0.001585
+----------
+epoch 7/200
+epoch 7 average loss: 0.6653,learning rate 0.0018325
+----------
+epoch 8/200
+epoch 8 average loss: 0.6488,learning rate 0.0020800000000000003
+----------
+epoch 9/200
+epoch 9 average loss: 0.6647,learning rate 0.0023275
+----------
+epoch 10/200
+epoch 10 average loss: 0.6662,learning rate 0.002575
+saved new best metric model
+current epoch: 10 current accuracy: 0.5714 current AUC: 0.8542 best accuracy: 0.5714 at epoch 10
+----------
+epoch 11/200
+epoch 11 average loss: 0.6521,learning rate 0.0028225000000000004
+----------
+epoch 12/200
+epoch 12 average loss: 0.6455,learning rate 0.0030700000000000002
+----------
+epoch 13/200
+epoch 13 average loss: 0.6345,learning rate 0.0033174999999999997
+----------
+epoch 14/200
+epoch 14 average loss: 0.6442,learning rate 0.003565
+----------
+epoch 15/200
+epoch 15 average loss: 0.6477,learning rate 0.0038125000000000004
+saved new best metric model
+current epoch: 15 current accuracy: 0.6429 current AUC: 0.8542 best accuracy: 0.6429 at epoch 15
+----------
+epoch 16/200
+epoch 16 average loss: 0.6400,learning rate 0.00406
+----------
+epoch 17/200
+epoch 17 average loss: 0.6526,learning rate 0.0043075000000000006
+----------
+epoch 18/200
+epoch 18 average loss: 0.6561,learning rate 0.004555
+----------
+epoch 19/200
+epoch 19 average loss: 0.6574,learning rate 0.0048025
+----------
+epoch 20/200
+epoch 20 average loss: 0.6378,learning rate 0.005050000000000001
+saved new best metric model
+current epoch: 20 current accuracy: 0.9286 current AUC: 0.8542 best accuracy: 0.9286 at epoch 20
+----------
+epoch 21/200
+epoch 21 average loss: 0.6363,learning rate 0.0052975
+----------
+epoch 22/200
+epoch 22 average loss: 0.6335,learning rate 0.0055450000000000004
+----------
+epoch 23/200
+epoch 23 average loss: 0.6394,learning rate 0.0057925
+----------
+epoch 24/200
+epoch 24 average loss: 0.6341,learning rate 0.00604
+----------
+epoch 25/200
+epoch 25 average loss: 0.6413,learning rate 0.0062875000000000006
+current epoch: 25 current accuracy: 0.8571 current AUC: 0.8542 best accuracy: 0.9286 at epoch 20
+----------
+epoch 26/200
+epoch 26 average loss: 0.6372,learning rate 0.006535
+----------
+epoch 27/200
+epoch 27 average loss: 0.6280,learning rate 0.0067825
+----------
+epoch 28/200
+epoch 28 average loss: 0.6585,learning rate 0.00703
+----------
+epoch 29/200
+epoch 29 average loss: 0.6298,learning rate 0.007277500000000001
+----------
+epoch 30/200
+epoch 30 average loss: 0.6419,learning rate 0.0075250000000000004
+current epoch: 30 current accuracy: 0.4286 current AUC: 0.8542 best accuracy: 0.9286 at epoch 20
+----------
+epoch 31/200
+epoch 31 average loss: 0.6234,learning rate 0.0077725
+----------
+epoch 32/200
+epoch 32 average loss: 0.6423,learning rate 0.008020000000000001
+----------
+epoch 33/200
+epoch 33 average loss: 0.6247,learning rate 0.0082675
+----------
+epoch 34/200
+epoch 34 average loss: 0.6035,learning rate 0.008515000000000002
+----------
+epoch 35/200
+epoch 35 average loss: 0.6274,learning rate 0.008762500000000001
+current epoch: 35 current accuracy: 0.6429 current AUC: 0.8542 best accuracy: 0.9286 at epoch 20
+----------
+epoch 36/200
+epoch 36 average loss: 0.6097,learning rate 0.00901
+----------
+epoch 37/200
+epoch 37 average loss: 0.6117,learning rate 0.0092575
+----------
+epoch 38/200
+epoch 38 average loss: 0.6339,learning rate 0.009505
+----------
+epoch 39/200
+epoch 39 average loss: 0.6122,learning rate 0.0097525
+----------
+epoch 40/200
+epoch 40 average loss: 0.5974,learning rate 0.01
+current epoch: 40 current accuracy: 0.8571 current AUC: 0.8333 best accuracy: 0.9286 at epoch 20
+----------
+epoch 41/200
+epoch 41 average loss: 0.5920,learning rate 0.01
+----------
+epoch 42/200
+epoch 42 average loss: 0.6082,learning rate 0.009999036202410324
+----------
+epoch 43/200
+epoch 43 average loss: 0.5779,learning rate 0.009996145181203614
+----------
+epoch 44/200
+epoch 44 average loss: 0.5643,learning rate 0.009991328050923579
+----------
+epoch 45/200
+epoch 45 average loss: 0.5632,learning rate 0.009984586668665639
+current epoch: 45 current accuracy: 0.5000 current AUC: 0.7500 best accuracy: 0.9286 at epoch 20
+----------
+epoch 46/200
+epoch 46 average loss: 0.5539,learning rate 0.009975923633360983
+----------
+epoch 47/200
+epoch 47 average loss: 0.5634,learning rate 0.00996534228477463
+----------
+epoch 48/200
+epoch 48 average loss: 0.5381,learning rate 0.009952846702217882
+----------
+epoch 49/200
+epoch 49 average loss: 0.5966,learning rate 0.009938441702975686
+----------
+epoch 50/200
+epoch 50 average loss: 0.5485,learning rate 0.009922132840449455
+current epoch: 50 current accuracy: 0.5714 current AUC: 0.1458 best accuracy: 0.9286 at epoch 20
+----------
+epoch 51/200
+epoch 51 average loss: 0.6215,learning rate 0.00990392640201615
+----------
+epoch 52/200
+epoch 52 average loss: 0.6087,learning rate 0.00988382940660436
+----------
+epoch 53/200
+epoch 53 average loss: 0.5442,learning rate 0.00986184960198838
+----------
+epoch 54/200
+epoch 54 average loss: 0.5104,learning rate 0.009837995461801296
+----------
+epoch 55/200
+epoch 55 average loss: 0.5021,learning rate 0.009812276182268232
+current epoch: 55 current accuracy: 0.5714 current AUC: 0.7708 best accuracy: 0.9286 at epoch 20
+----------
+epoch 56/200
+epoch 56 average loss: 0.5267,learning rate 0.00978470167866104
+----------
+epoch 57/200
+epoch 57 average loss: 0.5312,learning rate 0.009755282581475764
+----------
+epoch 58/200
+epoch 58 average loss: 0.5186,learning rate 0.009724030232334388
+----------
+epoch 59/200
+epoch 59 average loss: 0.4972,learning rate 0.009690956679612417
+----------
+epoch 60/200
+epoch 60 average loss: 0.4722,learning rate 0.009656074673794014
+current epoch: 60 current accuracy: 0.4286 current AUC: 0.2917 best accuracy: 0.9286 at epoch 20
+----------
+epoch 61/200
+epoch 61 average loss: 0.4426,learning rate 0.00961939766255643
+----------
+epoch 62/200
+epoch 62 average loss: 0.4622,learning rate 0.009580939785585676
+----------
+epoch 63/200
+epoch 63 average loss: 0.5449,learning rate 0.009540715869125404
+----------
+epoch 64/200
+epoch 64 average loss: 0.5357,learning rate 0.009498741420261103
+----------
+epoch 65/200
+epoch 65 average loss: 0.4785,learning rate 0.009455032620941835
+current epoch: 65 current accuracy: 0.4286 current AUC: 0.2292 best accuracy: 0.9286 at epoch 20
+----------
+epoch 66/200
+epoch 66 average loss: 0.5248,learning rate 0.00940960632174177
+----------
+epoch 67/200
+epoch 67 average loss: 0.4715,learning rate 0.00936248003536398
+----------
+epoch 68/200
+epoch 68 average loss: 0.4730,learning rate 0.009313671929888953
+----------
+epoch 69/200
+epoch 69 average loss: 0.4751,learning rate 0.009263200821770455
+----------
+epoch 70/200
+epoch 70 average loss: 0.4676,learning rate 0.009211086168581427
+current epoch: 70 current accuracy: 0.5000 current AUC: 0.6667 best accuracy: 0.9286 at epoch 20
+----------
+epoch 71/200
+epoch 71 average loss: 0.4818,learning rate 0.009157348061512721
+----------
+epoch 72/200
+epoch 72 average loss: 0.4217,learning rate 0.009102007217627562
+----------
+epoch 73/200
+epoch 73 average loss: 0.4550,learning rate 0.009045084971874732
+----------
+epoch 74/200
+epoch 74 average loss: 0.4943,learning rate 0.00898660326886353
+----------
+epoch 75/200
+epoch 75 average loss: 0.4437,learning rate 0.008926584654403718
+current epoch: 75 current accuracy: 0.6429 current AUC: 0.7292 best accuracy: 0.9286 at epoch 20
+----------
+epoch 76/200
+epoch 76 average loss: 0.3994,learning rate 0.008865052266813679
+----------
+epoch 77/200
+epoch 77 average loss: 0.4261,learning rate 0.00880202982800015
+----------
+epoch 78/200
+epoch 78 average loss: 0.4216,learning rate 0.008737541634312979
+----------
+epoch 79/200
+epoch 79 average loss: 0.4370,learning rate 0.008671612547178421
+----------
+epoch 80/200
+epoch 80 average loss: 0.4179,learning rate 0.008604267983514586
+current epoch: 80 current accuracy: 0.3571 current AUC: 0.4375 best accuracy: 0.9286 at epoch 20
+----------
+epoch 81/200
+epoch 81 average loss: 0.4827,learning rate 0.00853553390593273
+----------
+epoch 82/200
+epoch 82 average loss: 0.4354,learning rate 0.008465436812728173
+----------
+epoch 83/200
+epoch 83 average loss: 0.4539,learning rate 0.008394003727664702
+----------
+epoch 84/200
+epoch 84 average loss: 0.3833,learning rate 0.008321262189556401
+----------
+epoch 85/200
+epoch 85 average loss: 0.3983,learning rate 0.008247240241650912
+current epoch: 85 current accuracy: 0.5000 current AUC: 0.8542 best accuracy: 0.9286 at epoch 20
+----------
+epoch 86/200
+epoch 86 average loss: 0.4530,learning rate 0.008171966420818222
+----------
+epoch 87/200
+epoch 87 average loss: 0.4005,learning rate 0.008095469746549164
+----------
+epoch 88/200
+epoch 88 average loss: 0.4293,learning rate 0.00801777970976785
+----------
+epoch 89/200
+epoch 89 average loss: 0.4287,learning rate 0.00793892626146236
+----------
+epoch 90/200
+epoch 90 average loss: 0.4449,learning rate 0.007858939801138056
+current epoch: 90 current accuracy: 0.5000 current AUC: 0.7708 best accuracy: 0.9286 at epoch 20
+----------
+epoch 91/200
+epoch 91 average loss: 0.4005,learning rate 0.007777851165098005
+----------
+epoch 92/200
+epoch 92 average loss: 0.3994,learning rate 0.0076956916145549965
+----------
+epoch 93/200
+epoch 93 average loss: 0.4013,learning rate 0.0076124928235797385
+----------
+epoch 94/200
+epoch 94 average loss: 0.4289,learning rate 0.007528286866889918
+----------
+epoch 95/200
+epoch 95 average loss: 0.4412,learning rate 0.00744310620748477
+current epoch: 95 current accuracy: 0.4286 current AUC: 0.6667 best accuracy: 0.9286 at epoch 20
+----------
+epoch 96/200
+epoch 96 average loss: 0.3650,learning rate 0.007356983684129983
+----------
+epoch 97/200
+epoch 97 average loss: 0.4002,learning rate 0.0072699524986977295
+----------
+epoch 98/200
+epoch 98 average loss: 0.4074,learning rate 0.007182046203366706
+----------
+epoch 99/200
+epoch 99 average loss: 0.4234,learning rate 0.007093298687687136
+----------
+epoch 100/200
+epoch 100 average loss: 0.3800,learning rate 0.0070037441655157
+current epoch: 100 current accuracy: 0.6429 current AUC: 0.7083 best accuracy: 0.9286 at epoch 20
+----------
+epoch 101/200
+epoch 101 average loss: 0.4033,learning rate 0.006913417161825444
+----------
+epoch 102/200
+epoch 102 average loss: 0.3846,learning rate 0.006822352499395743
+----------
+epoch 103/200
+epoch 103 average loss: 0.3760,learning rate 0.00673058528538746
+----------
+epoch 104/200
+epoch 104 average loss: 0.4029,learning rate 0.006638150897808462
+----------
+epoch 105/200
+epoch 105 average loss: 0.3983,learning rate 0.006545084971874732
+current epoch: 105 current accuracy: 0.5000 current AUC: 0.4583 best accuracy: 0.9286 at epoch 20
+----------
+epoch 106/200
+epoch 106 average loss: 0.3959,learning rate 0.006451423386272308
+----------
+epoch 107/200
+epoch 107 average loss: 0.4182,learning rate 0.006357202249325367
+----------
+epoch 108/200
+epoch 108 average loss: 0.4129,learning rate 0.006262457885075787
+----------
+epoch 109/200
+epoch 109 average loss: 0.3743,learning rate 0.006167226819279524
+----------
+epoch 110/200
+epoch 110 average loss: 0.3776,learning rate 0.00607154576532525
+current epoch: 110 current accuracy: 0.5714 current AUC: 0.6458 best accuracy: 0.9286 at epoch 20
+----------
+epoch 111/200
+epoch 111 average loss: 0.3846,learning rate 0.005975451610080638
+----------
+epoch 112/200
+epoch 112 average loss: 0.3703,learning rate 0.005878981399671767
+----------
+epoch 113/200
+epoch 113 average loss: 0.3874,learning rate 0.00578217232520115
+----------
+epoch 114/200
+epoch 114 average loss: 0.3851,learning rate 0.005685061708409836
+----------
+epoch 115/200
+epoch 115 average loss: 0.3789,learning rate 0.005587686987289183
+current epoch: 115 current accuracy: 0.4286 current AUC: 0.5833 best accuracy: 0.9286 at epoch 20
+----------
+epoch 116/200
+epoch 116 average loss: 0.3586,learning rate 0.005490085701647799
+----------
+epoch 117/200
+epoch 117 average loss: 0.3601,learning rate 0.00539229547863922
+----------
+epoch 118/200
+epoch 118 average loss: 0.3628,learning rate 0.0052943540182559395
+----------
+epoch 119/200
+epoch 119 average loss: 0.3763,learning rate 0.005196299078795338
+----------
+epoch 120/200
+epoch 120 average loss: 0.3956,learning rate 0.005098168462303136
+current epoch: 120 current accuracy: 0.5714 current AUC: 0.6250 best accuracy: 0.9286 at epoch 20
+----------
+epoch 121/200
+epoch 121 average loss: 0.3798,learning rate 0.004999999999999995
+----------
+epoch 122/200
+epoch 122 average loss: 0.3678,learning rate 0.004901831537696854
+----------
+epoch 123/200
+epoch 123 average loss: 0.3845,learning rate 0.004803700921204653
+----------
+epoch 124/200
+epoch 124 average loss: 0.3764,learning rate 0.0047056459817440485
+----------
+epoch 125/200
+epoch 125 average loss: 0.4091,learning rate 0.00460770452136077
+current epoch: 125 current accuracy: 0.5714 current AUC: 0.7083 best accuracy: 0.9286 at epoch 20
+----------
+epoch 126/200
+epoch 126 average loss: 0.3647,learning rate 0.004509914298352191
+----------
+epoch 127/200
+epoch 127 average loss: 0.3604,learning rate 0.004412313012710807
+----------
+epoch 128/200
+epoch 128 average loss: 0.3577,learning rate 0.0043149382915901565
+----------
+epoch 129/200
+epoch 129 average loss: 0.3803,learning rate 0.004217827674798842
+----------
+epoch 130/200
+epoch 130 average loss: 0.3451,learning rate 0.004121018600328223
+current epoch: 130 current accuracy: 0.5000 current AUC: 0.6250 best accuracy: 0.9286 at epoch 20
+----------
+epoch 131/200
+epoch 131 average loss: 0.3684,learning rate 0.004024548389919354
+----------
+epoch 132/200
+epoch 132 average loss: 0.3606,learning rate 0.003928454234674742
+----------
+epoch 133/200
+epoch 133 average loss: 0.3798,learning rate 0.0038327731807204684
+----------
+epoch 134/200
+epoch 134 average loss: 0.3511,learning rate 0.003737542114924206
+----------
+epoch 135/200
+epoch 135 average loss: 0.3692,learning rate 0.003642797750674623
+current epoch: 135 current accuracy: 0.4286 current AUC: 0.6875 best accuracy: 0.9286 at epoch 20
+----------
+epoch 136/200
+epoch 136 average loss: 0.3763,learning rate 0.003548576613727683
+----------
+epoch 137/200
+epoch 137 average loss: 0.3527,learning rate 0.0034549150281252584
+----------
+epoch 138/200
+epoch 138 average loss: 0.4045,learning rate 0.0033618491021915283
+----------
+epoch 139/200
+epoch 139 average loss: 0.3734,learning rate 0.0032694147146125315
+----------
+epoch 140/200
+epoch 140 average loss: 0.3654,learning rate 0.003177647500604247
+current epoch: 140 current accuracy: 0.5714 current AUC: 0.6667 best accuracy: 0.9286 at epoch 20
+----------
+epoch 141/200
+epoch 141 average loss: 0.3551,learning rate 0.0030865828381745467
+----------
+epoch 142/200
+epoch 142 average loss: 0.3727,learning rate 0.0029962558344842904
+----------
+epoch 143/200
+epoch 143 average loss: 0.3756,learning rate 0.002906701312312857
+----------
+epoch 144/200
+epoch 144 average loss: 0.3629,learning rate 0.002817953796633286
+----------
+epoch 145/200
+epoch 145 average loss: 0.3517,learning rate 0.002730047501302262
+current epoch: 145 current accuracy: 0.5000 current AUC: 0.6458 best accuracy: 0.9286 at epoch 20
+----------
+epoch 146/200
+epoch 146 average loss: 0.3890,learning rate 0.0026430163158700074
+----------
+epoch 147/200
+epoch 147 average loss: 0.3699,learning rate 0.0025568937925152207
+----------
+epoch 148/200
+epoch 148 average loss: 0.3713,learning rate 0.002471713133110074
+----------
+epoch 149/200
+epoch 149 average loss: 0.3923,learning rate 0.002387507176420252
+----------
+epoch 150/200
+epoch 150 average loss: 0.3560,learning rate 0.0023043083854449972
+current epoch: 150 current accuracy: 0.4286 current AUC: 0.7292 best accuracy: 0.9286 at epoch 20
+----------
+epoch 151/200
+epoch 151 average loss: 0.3808,learning rate 0.002222148834901985
+----------
+epoch 152/200
+epoch 152 average loss: 0.3581,learning rate 0.002141060198861936
+----------
+epoch 153/200
+epoch 153 average loss: 0.4096,learning rate 0.0020610737385376317
+----------
+epoch 154/200
+epoch 154 average loss: 0.3878,learning rate 0.00198222029023214
+----------
+epoch 155/200
+epoch 155 average loss: 0.3628,learning rate 0.0019045302534508282
+current epoch: 155 current accuracy: 0.5000 current AUC: 0.6250 best accuracy: 0.9286 at epoch 20
+----------
+epoch 156/200
+epoch 156 average loss: 0.3933,learning rate 0.0018280335791817685
+----------
+epoch 157/200
+epoch 157 average loss: 0.3610,learning rate 0.0017527597583490795
+----------
+epoch 158/200
+epoch 158 average loss: 0.3835,learning rate 0.0016787378104435886
+----------
+epoch 159/200
+epoch 159 average loss: 0.3836,learning rate 0.0016059962723352895
+----------
+epoch 160/200
+epoch 160 average loss: 0.3711,learning rate 0.0015345631872718186
+current epoch: 160 current accuracy: 0.4286 current AUC: 0.4792 best accuracy: 0.9286 at epoch 20
+----------
+epoch 161/200
+epoch 161 average loss: 0.3823,learning rate 0.00146446609406726
+----------
+epoch 162/200
+epoch 162 average loss: 0.3556,learning rate 0.0013957320164854035
+----------
+epoch 163/200
+epoch 163 average loss: 0.3478,learning rate 0.0013283874528215694
+----------
+epoch 164/200
+epoch 164 average loss: 0.3693,learning rate 0.001262458365687015
+----------
+epoch 165/200
+epoch 165 average loss: 0.3547,learning rate 0.0011979701719998434
+current epoch: 165 current accuracy: 0.5714 current AUC: 0.7500 best accuracy: 0.9286 at epoch 20
+----------
+epoch 166/200
+epoch 166 average loss: 0.3894,learning rate 0.001134947733186315
+----------
+epoch 167/200
+epoch 167 average loss: 0.3815,learning rate 0.001073415345596273
+----------
+epoch 168/200
+epoch 168 average loss: 0.3448,learning rate 0.0010133967311364634
+----------
+epoch 169/200
+epoch 169 average loss: 0.3498,learning rate 0.0009549150281252619
+----------
+epoch 170/200
+epoch 170 average loss: 0.3459,learning rate 0.0008979927823724307
+current epoch: 170 current accuracy: 0.5000 current AUC: 0.6458 best accuracy: 0.9286 at epoch 20
+----------
+epoch 171/200
+epoch 171 average loss: 0.3630,learning rate 0.0008426519384872736
+----------
+epoch 172/200
+epoch 172 average loss: 0.4133,learning rate 0.0007889138314185655
+----------
+epoch 173/200
+epoch 173 average loss: 0.3578,learning rate 0.0007367991782295379
+----------
+epoch 174/200
+epoch 174 average loss: 0.3475,learning rate 0.0006863280701110396
+----------
+epoch 175/200
+epoch 175 average loss: 0.3715,learning rate 0.0006375199646360141
+current epoch: 175 current accuracy: 0.4286 current AUC: 0.6042 best accuracy: 0.9286 at epoch 20
+----------
+epoch 176/200
+epoch 176 average loss: 0.3689,learning rate 0.0005903936782582243
+----------
+epoch 177/200
+epoch 177 average loss: 0.3637,learning rate 0.0005449673790581601
+----------
+epoch 178/200
+epoch 178 average loss: 0.3919,learning rate 0.0005012585797388916
+----------
+epoch 179/200
+epoch 179 average loss: 0.3636,learning rate 0.0004592841308745925
+----------
+epoch 180/200
+epoch 180 average loss: 0.3558,learning rate 0.0004190602144143201
+current epoch: 180 current accuracy: 0.4286 current AUC: 0.6250 best accuracy: 0.9286 at epoch 20
+----------
+epoch 181/200
+epoch 181 average loss: 0.3504,learning rate 0.0003806023374435657
+----------
+epoch 182/200
+epoch 182 average loss: 0.3708,learning rate 0.0003439253262059827
+----------
+epoch 183/200
+epoch 183 average loss: 0.3787,learning rate 0.0003090433203875787
+----------
+epoch 184/200
+epoch 184 average loss: 0.3644,learning rate 0.0002759697676656099
+----------
+epoch 185/200
+epoch 185 average loss: 0.3604,learning rate 0.00024471741852423196
+current epoch: 185 current accuracy: 0.5000 current AUC: 0.6250 best accuracy: 0.9286 at epoch 20
+----------
+epoch 186/200
+epoch 186 average loss: 0.3858,learning rate 0.00021529832133895552
+----------
+epoch 187/200
+epoch 187 average loss: 0.3544,learning rate 0.00018772381773176383
+----------
+epoch 188/200
+epoch 188 average loss: 0.3644,learning rate 0.00016200453819870036
+----------
+epoch 189/200
+epoch 189 average loss: 0.3549,learning rate 0.00013815039801161696
+----------
+epoch 190/200
+epoch 190 average loss: 0.3558,learning rate 0.00011617059339563786
+current epoch: 190 current accuracy: 0.5000 current AUC: 0.7500 best accuracy: 0.9286 at epoch 20
+----------
+epoch 191/200
+epoch 191 average loss: 0.3864,learning rate 9.607359798384769e-05
+----------
+epoch 192/200
+epoch 192 average loss: 0.3647,learning rate 7.786715955054189e-05
+----------
+epoch 193/200
+epoch 193 average loss: 0.3494,learning rate 6.15582970243116e-05
+----------
+epoch 194/200
+epoch 194 average loss: 0.3492,learning rate 4.7153297782113665e-05
+----------
+epoch 195/200
+epoch 195 average loss: 0.3866,learning rate 3.465771522536848e-05
+current epoch: 195 current accuracy: 0.4286 current AUC: 0.6250 best accuracy: 0.9286 at epoch 20
+----------
+epoch 196/200
+epoch 196 average loss: 0.3536,learning rate 2.407636663901587e-05
+----------
+epoch 197/200
+epoch 197 average loss: 0.3531,learning rate 1.5413331334360152e-05
+----------
+epoch 198/200
+epoch 198 average loss: 0.3797,learning rate 8.671949076420866e-06
+----------
+epoch 199/200
+epoch 199 average loss: 0.3643,learning rate 3.854818796385488e-06
+----------
+epoch 200/200
+epoch 200 average loss: 0.3684,learning rate 9.637975896759059e-07
+current epoch: 200 current accuracy: 0.4286 current AUC: 0.6458 best accuracy: 0.9286 at epoch 20
+Folder 1 train completed,last metruc : 0.42857142857142855, best_metric: 0.9286 at epoch: 20
+136 16
+check data torch.Size([1, 1, 192, 192, 48]) tensor([0])
+----------
+epoch 1/200
+epoch 1 average loss: 0.6735,learning rate 0.00034750000000000004
+----------
+epoch 2/200
+epoch 2 average loss: 0.6692,learning rate 0.000595
+----------
+epoch 3/200
+epoch 3 average loss: 0.6619,learning rate 0.0008425000000000001
+----------
+epoch 4/200
+epoch 4 average loss: 0.6635,learning rate 0.00109
+----------
+epoch 5/200
+epoch 5 average loss: 0.6516,learning rate 0.0013375000000000001
+saved new best metric model
+current epoch: 5 current accuracy: 0.5000 current AUC: 0.7091 best accuracy: 0.5000 at epoch 5
+----------
+epoch 6/200
+epoch 6 average loss: 0.6563,learning rate 0.001585
+----------
+epoch 7/200
+epoch 7 average loss: 0.6417,learning rate 0.0018325
+----------
+epoch 8/200
+epoch 8 average loss: 0.6495,learning rate 0.0020800000000000003
+----------
+epoch 9/200
+epoch 9 average loss: 0.6492,learning rate 0.0023275
+----------
+epoch 10/200
+epoch 10 average loss: 0.6447,learning rate 0.002575
+saved new best metric model
+current epoch: 10 current accuracy: 0.5625 current AUC: 0.6727 best accuracy: 0.5625 at epoch 10
+----------
+epoch 11/200
+epoch 11 average loss: 0.6492,learning rate 0.0028225000000000004
+----------
+epoch 12/200
+epoch 12 average loss: 0.6273,learning rate 0.0030700000000000002
+----------
+epoch 13/200
+epoch 13 average loss: 0.6310,learning rate 0.0033174999999999997
+----------
+epoch 14/200
+epoch 14 average loss: 0.6466,learning rate 0.003565
+----------
+epoch 15/200
+epoch 15 average loss: 0.6385,learning rate 0.0038125000000000004
+current epoch: 15 current accuracy: 0.5000 current AUC: 0.6727 best accuracy: 0.5625 at epoch 10
+----------
+epoch 16/200
+epoch 16 average loss: 0.6523,learning rate 0.00406
+----------
+epoch 17/200
+epoch 17 average loss: 0.6523,learning rate 0.0043075000000000006
+----------
+epoch 18/200
+epoch 18 average loss: 0.6456,learning rate 0.004555
+----------
+epoch 19/200
+epoch 19 average loss: 0.6445,learning rate 0.0048025
+----------
+epoch 20/200
+epoch 20 average loss: 0.6418,learning rate 0.005050000000000001
+current epoch: 20 current accuracy: 0.5625 current AUC: 0.6727 best accuracy: 0.5625 at epoch 10
+----------
+epoch 21/200
+epoch 21 average loss: 0.6316,learning rate 0.0052975
+----------
+epoch 22/200
+epoch 22 average loss: 0.6254,learning rate 0.0055450000000000004
+----------
+epoch 23/200
+epoch 23 average loss: 0.6174,learning rate 0.0057925
+----------
+epoch 24/200
+epoch 24 average loss: 0.6341,learning rate 0.00604
+----------
+epoch 25/200
+epoch 25 average loss: 0.6311,learning rate 0.0062875000000000006
+current epoch: 25 current accuracy: 0.5000 current AUC: 0.6727 best accuracy: 0.5625 at epoch 10
+----------
+epoch 26/200
+epoch 26 average loss: 0.6116,learning rate 0.006535
+----------
+epoch 27/200
+epoch 27 average loss: 0.6378,learning rate 0.0067825
+----------
+epoch 28/200
+epoch 28 average loss: 0.6146,learning rate 0.00703
+----------
+epoch 29/200
+epoch 29 average loss: 0.6438,learning rate 0.007277500000000001
+----------
+epoch 30/200
+epoch 30 average loss: 0.6150,learning rate 0.0075250000000000004
+current epoch: 30 current accuracy: 0.5000 current AUC: 0.6545 best accuracy: 0.5625 at epoch 10
+----------
+epoch 31/200
+epoch 31 average loss: 0.6063,learning rate 0.0077725
+----------
+epoch 32/200
+epoch 32 average loss: 0.6246,learning rate 0.008020000000000001
+----------
+epoch 33/200
+epoch 33 average loss: 0.6052,learning rate 0.0082675
+----------
+epoch 34/200
+epoch 34 average loss: 0.6133,learning rate 0.008515000000000002
+----------
+epoch 35/200
+epoch 35 average loss: 0.6228,learning rate 0.008762500000000001
+current epoch: 35 current accuracy: 0.5000 current AUC: 0.6364 best accuracy: 0.5625 at epoch 10
+----------
+epoch 36/200
+epoch 36 average loss: 0.6049,learning rate 0.00901
+----------
+epoch 37/200
+epoch 37 average loss: 0.5896,learning rate 0.0092575
+----------
+epoch 38/200
+epoch 38 average loss: 0.5969,learning rate 0.009505
+----------
+epoch 39/200
+epoch 39 average loss: 0.5905,learning rate 0.0097525
+----------
+epoch 40/200
+epoch 40 average loss: 0.5818,learning rate 0.01
+saved new best metric model
+current epoch: 40 current accuracy: 0.6250 current AUC: 0.6000 best accuracy: 0.6250 at epoch 40
+----------
+epoch 41/200
+epoch 41 average loss: 0.5794,learning rate 0.01
+----------
+epoch 42/200
+epoch 42 average loss: 0.6211,learning rate 0.009999036202410324
+----------
+epoch 43/200
+epoch 43 average loss: 0.5644,learning rate 0.009996145181203614
+----------
+epoch 44/200
+epoch 44 average loss: 0.5535,learning rate 0.009991328050923579
+----------
+epoch 45/200
+epoch 45 average loss: 0.5535,learning rate 0.009984586668665639
+current epoch: 45 current accuracy: 0.5000 current AUC: 0.6364 best accuracy: 0.6250 at epoch 40
+----------
+epoch 46/200
+epoch 46 average loss: 0.5293,learning rate 0.009975923633360983
+----------
+epoch 47/200
+epoch 47 average loss: 0.5556,learning rate 0.00996534228477463
+----------
+epoch 48/200
+epoch 48 average loss: 0.5414,learning rate 0.009952846702217882
+----------
+epoch 49/200
+epoch 49 average loss: 0.5093,learning rate 0.009938441702975686
+----------
+epoch 50/200
+epoch 50 average loss: 0.5105,learning rate 0.009922132840449455
+current epoch: 50 current accuracy: 0.5000 current AUC: 0.6182 best accuracy: 0.6250 at epoch 40
+----------
+epoch 51/200
+epoch 51 average loss: 0.5584,learning rate 0.00990392640201615
+----------
+epoch 52/200
+epoch 52 average loss: 0.4953,learning rate 0.00988382940660436
+----------
+epoch 53/200
+epoch 53 average loss: 0.5186,learning rate 0.00986184960198838
+----------
+epoch 54/200
+epoch 54 average loss: 0.5130,learning rate 0.009837995461801296
+----------
+epoch 55/200
+epoch 55 average loss: 0.5286,learning rate 0.009812276182268232
+current epoch: 55 current accuracy: 0.6250 current AUC: 0.5636 best accuracy: 0.6250 at epoch 40
+----------
+epoch 56/200
+epoch 56 average loss: 0.4824,learning rate 0.00978470167866104
+----------
+epoch 57/200
+epoch 57 average loss: 0.4818,learning rate 0.009755282581475764
+----------
+epoch 58/200
+epoch 58 average loss: 0.5344,learning rate 0.009724030232334388
+----------
+epoch 59/200
+epoch 59 average loss: 0.4843,learning rate 0.009690956679612417
+----------
+epoch 60/200
+epoch 60 average loss: 0.4811,learning rate 0.009656074673794014
+current epoch: 60 current accuracy: 0.3125 current AUC: 0.6182 best accuracy: 0.6250 at epoch 40
+----------
+epoch 61/200
+epoch 61 average loss: 0.5187,learning rate 0.00961939766255643
+----------
+epoch 62/200
+epoch 62 average loss: 0.4680,learning rate 0.009580939785585676
+----------
+epoch 63/200
+epoch 63 average loss: 0.4890,learning rate 0.009540715869125404
+----------
+epoch 64/200
+epoch 64 average loss: 0.4735,learning rate 0.009498741420261103
+----------
+epoch 65/200
+epoch 65 average loss: 0.4410,learning rate 0.009455032620941835
+current epoch: 65 current accuracy: 0.4375 current AUC: 0.6727 best accuracy: 0.6250 at epoch 40
+----------
+epoch 66/200
+epoch 66 average loss: 0.4514,learning rate 0.00940960632174177
+----------
+epoch 67/200
+epoch 67 average loss: 0.4150,learning rate 0.00936248003536398
+----------
+epoch 68/200
+epoch 68 average loss: 0.4408,learning rate 0.009313671929888953
+----------
+epoch 69/200
+epoch 69 average loss: 0.5003,learning rate 0.009263200821770455
+----------
+epoch 70/200
+epoch 70 average loss: 0.4451,learning rate 0.009211086168581427
+current epoch: 70 current accuracy: 0.3750 current AUC: 0.5818 best accuracy: 0.6250 at epoch 40
+----------
+epoch 71/200
+epoch 71 average loss: 0.4545,learning rate 0.009157348061512721
+----------
+epoch 72/200
+epoch 72 average loss: 0.3898,learning rate 0.009102007217627562
+----------
+epoch 73/200
+epoch 73 average loss: 0.4154,learning rate 0.009045084971874732
+----------
+epoch 74/200
+epoch 74 average loss: 0.4676,learning rate 0.00898660326886353
+----------
+epoch 75/200
+epoch 75 average loss: 0.4566,learning rate 0.008926584654403718
+current epoch: 75 current accuracy: 0.5000 current AUC: 0.6364 best accuracy: 0.6250 at epoch 40
+----------
+epoch 76/200
+epoch 76 average loss: 0.4286,learning rate 0.008865052266813679
+----------
+epoch 77/200
+epoch 77 average loss: 0.4752,learning rate 0.00880202982800015
+----------
+epoch 78/200
+epoch 78 average loss: 0.4007,learning rate 0.008737541634312979
+----------
+epoch 79/200
+epoch 79 average loss: 0.3958,learning rate 0.008671612547178421
+----------
+epoch 80/200
+epoch 80 average loss: 0.3810,learning rate 0.008604267983514586
+current epoch: 80 current accuracy: 0.5625 current AUC: 0.5636 best accuracy: 0.6250 at epoch 40
+----------
+epoch 81/200
+epoch 81 average loss: 0.4092,learning rate 0.00853553390593273
+----------
+epoch 82/200
+epoch 82 average loss: 0.4168,learning rate 0.008465436812728173
+----------
+epoch 83/200
+epoch 83 average loss: 0.3932,learning rate 0.008394003727664702
+----------
+epoch 84/200
+epoch 84 average loss: 0.3942,learning rate 0.008321262189556401
+----------
+epoch 85/200
+epoch 85 average loss: 0.3996,learning rate 0.008247240241650912
+saved new best metric model
+current epoch: 85 current accuracy: 0.6875 current AUC: 0.5455 best accuracy: 0.6875 at epoch 85
+----------
+epoch 86/200
+epoch 86 average loss: 0.3951,learning rate 0.008171966420818222
+----------
+epoch 87/200
+epoch 87 average loss: 0.3870,learning rate 0.008095469746549164
+----------
+epoch 88/200
+epoch 88 average loss: 0.4186,learning rate 0.00801777970976785
+----------
+epoch 89/200
+epoch 89 average loss: 0.4255,learning rate 0.00793892626146236
+----------
+epoch 90/200
+epoch 90 average loss: 0.4329,learning rate 0.007858939801138056
+current epoch: 90 current accuracy: 0.6875 current AUC: 0.5636 best accuracy: 0.6875 at epoch 85
+----------
+epoch 91/200
+epoch 91 average loss: 0.3886,learning rate 0.007777851165098005
+----------
+epoch 92/200
+epoch 92 average loss: 0.3780,learning rate 0.0076956916145549965
+----------
+epoch 93/200
+epoch 93 average loss: 0.3773,learning rate 0.0076124928235797385
+----------
+epoch 94/200
+epoch 94 average loss: 0.4005,learning rate 0.007528286866889918
+----------
+epoch 95/200
